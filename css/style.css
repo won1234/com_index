@@ -648,6 +648,12 @@ p.label1 {
 	color:#2098d1;
 }
 
+.img-coo {
+    float: left;
+    margin-top:20px;
+    margin-right: 2%;
+}
+
 .img-grid1 {
 	float: left;
 	width: 49%;

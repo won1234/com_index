@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>响应式html静态企业网站模板 - 我爱模板网 www.5imoban.net</title>
+<title>联系我们</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,8 +11,8 @@
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-<link rel="shortcut icon" href="http://www.5imoban.net/favicon.ico" />
-<script src="http://www.5imoban.net/download/jquery/jquery-1.8.3.min.js"></script>
+<link rel="shortcut icon" href="images/bitbug_favicon.ico" />
+<script src="js/jquery-1.8.3.min.js"></script>
 <script src="js/responsiveslides.min.js"></script>
 <script>
     $(function () {
@@ -49,19 +49,19 @@
 			<div class="icon">
 				<ul>
 				  <li><i class="message"></i></li>
-					<li><a href="mailto:example@mail.com">Info@Seen.com</a></li>
+					<li><a href="mailto:yuexiangbao@yeah.net">yuexiangbao@yeah.net</a></li>
 						<li><i class="phone"></i></li>
-							<li><p>+00(123)4567890</p</li>
+							<li><p>400 826 0837</p></li>
 				</ul>
 		</div>
-				<div class="social-icons">
-				<a href="#"><i class="icon1"></i></a>
-					<a href="#"><i class="icon2"></i></a>
-						<a href="#"><i class="icon3"></i></a>
-							<a href="#"><i class="icon4"></i></a>
-								<a href="#"><i class="icon5"></i></a>
-									<a href="#"><i class="icon6"></i></a>
-								</div>
+				<!--<div class="social-icons">-->
+				<!--<a href="#"><i class="icon1"></i></a>-->
+					<!--<a href="#"><i class="icon2"></i></a>-->
+						<!--<a href="#"><i class="icon3"></i></a>-->
+							<!--<a href="#"><i class="icon4"></i></a>-->
+								<!--<a href="#"><i class="icon5"></i></a>-->
+									<!--<a href="#"><i class="icon6"></i></a>-->
+								<!--</div>-->
 								</div>
 			</div>
 			<div class="clearfix"></div>
@@ -75,10 +75,10 @@
 			<ul>
 				<nav class="cl-effect-5">
 					<li><a href="index.html"><span data-hover="首页">首页</span></a></li>
-					<li><a href="portfolio.html"><span data-hover="解决方案">解决方案</span></a></li>
-					<li><a href="portfolio1.html"><span data-hover="解决方案2">解决方案2</span></a></li>
-					<li><a href="blog.html"><span data-hover="文章列表">文章列表</span></a></li> 
-					<li><a href="features.html"><span data-hover="关于我们">关于我们</span></a></li>
+					<li><a href="#"><span data-hover="品牌简介">品牌简介</span></a></li>
+					<li><a href="#"><span data-hover="产品">产品</span></a></li>
+					<li><a href="blog.html"><span data-hover="合作加盟">合作加盟</span></a></li>
+					<li><a href="#"><span data-hover="关于我们">关于我们</span></a></li>
 					<li><a href="contact.html" class="active"><span data-hover="联系我们">联系我们</span></a></li>
 				</nav>
 			</ul>
@@ -123,7 +123,7 @@
 
 <body>
   <!--百度地图容器-->
-  <div style="width:697px;height:178px;border:#ccc solid 1px;" id="dituContent"></div>
+  <div style="width:597px;height:208px;border:#ccc solid 1px;" id="dituContent"></div>
 </body>
 <script type="text/javascript">
     //创建和初始化地图函数：
@@ -136,8 +136,8 @@
     //创建地图函数：
     function createMap(){
         var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
-        var point = new BMap.Point(117,31);//定义一个中心点坐标
-        map.centerAndZoom(point,17);//设定地图的中心点和坐标并将地图显示在地图容器中
+        var point = new BMap.Point(119.651334,29.08795);//定义一个中心点坐标
+        map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
         window.map = map;//将map变量存储在全局
     }
     //地图事件设置函数：
@@ -162,7 +162,7 @@
     }
     
     //标注点数组
-    var markerArr = [{title:"多元速网络科技有限公司",content:"TEL：0551-65118915",point:"117|31",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+    var markerArr = [{title:"金华越香居餐饮有限公司",content:"TEL：4008260837",point:"119.651334|29.08795",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
 		 ];
     //创建marker
     function addMarker(){
@@ -214,7 +214,7 @@
     }
     //创建一个Icon
     function createIcon(json){
-        var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        var icon = new BMap.Icon("images/position2.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
         return icon;
     }
     
@@ -222,16 +222,16 @@
 </script>
 </html>
 <!---地图结束----->  
-                                
-                                <br><small><a href="#" style="color: #C9C9C9;text-align:left;font-size:13px"> </a></small>
+
+								<br><small><a href="#" style="color: #C9C9C9;text-align:left;font-size:13px">a </a></small>
 					   		</div>
       				</div>
       			<div class="company_address">
 				     	<h2>公司地址 </h2>
-						<p>合肥市xx路xx号xx大厦</p>
-				   		<p>Phone:+86-0551-88888888</p>
-				 	 	<p>Email: <a href="mailto:admin@admin.com">admin@admin.com</a></p>
-				   		<p>Follow on: <a href="#">Facebook</a> , <a href="#">Twitter</a></p>
+						<p>浙江省金华市婺城区双龙南街万通国际A1007</p>
+				   		<p>电话:400 826 0837</p>
+				 	 	<p>邮箱: <a href="mailto:yuexiangbao@yeah.net">yuexiangbao@yeah.net</a></p>
+				   		<!--<p>Follow on: <a href="#">Facebook</a> , <a href="#">Twitter</a></p>-->
 				   </div>
 				   <div class="clearfix"></div>
 				</div>				
@@ -245,100 +245,100 @@
 </div>
 
 	 <!-- content-section-ends -->
-			<div class="footer-section">
-					<div class="container">
-						<div class="contact-grids">
-							<div class="col-md-3 contact-grid">
-									<h5>关于我们</h5>
-									<p>我爱模板网精选各种网页模板，css模板，网页特效，广告代码，开源网站源码，建站素材，精美网站欣赏，全部免费下载。并提供各种建站教程，力图帮助新手解决建站困难。找模板，找素材，找教程，就来我爱模板网。</p>
-									<a href="features.html" class="more">more about us<img src="images/arrow.png"></a>
-								</div>
-								<div class="col-md-3 contact-grid">
-									<h5>联系我们</h5>
-										<p>我爱模板网</p>
-										<div class="icon2">
-											<ul>
-												<li><i class="indicate"></i></li>
-													<li><p class="label1">合肥市xx路xx号xx大厦</p></li>
-													</ul>
-														<ul>
-														<li><i class="phone"></i></li>
-															<li><p class="label1">+86-0551-88888888</p></li>
-																</ul>
-																<ul>
-																<li><i class="message"></i></li>
-																	<li><a href="mailto:admin@admin.com">admin@admin.com</a></li>
-																	</ul>
-															</div>
-								</div>
-								<div class="col-md-3 contact-grid">
-									<h5>典型案例分享</h5>
-									<div class="cont">
-										<div class="contact-leftgrid">
-										<div class="img-grid1">
-										<img src="images/pic7.jpg">
-										</div>
-											<div class="img-grid2">
-										<img src="images/pic8.jpg">
-										</div>
-										<div class="clearfix"></div>
-										</div>
-										
-										<div class="contact-rightgrid">
-										<div class="img-grid3">
-										<img src="images/pic9.jpg">
-										</div>
-											<div class="img-grid4">
-										<img src="images/pic10.jpg">
-										</div>
-										<div class="clearfix"></div>
-										</div>
-										</div>
-										</div>
-								<div class="col-md-3 contact-grid">
-									<h5>网页模板</h5>
-										
-											
-											<img src="images/ewm.jpg">
-                                            <p>扫描二维码，有惊喜哦！</p>
+			<!--<div class="footer-section">-->
+					<!--<div class="container">-->
+						<!--<div class="contact-grids">-->
+							<!--<div class="col-md-3 contact-grid">-->
+									<!--<h5>关于我们</h5>-->
+									<!--<p>我爱模板网精选各种网页模板，css模板，网页特效，广告代码，开源网站源码，建站素材，精美网站欣赏，全部免费下载。并提供各种建站教程，力图帮助新手解决建站困难。找模板，找素材，找教程，就来我爱模板网。</p>-->
+									<!--<a href="features.html" class="more">more about us<img src="images/arrow.png"></a>-->
+								<!--</div>-->
+								<!--<div class="col-md-3 contact-grid">-->
+									<!--<h5>联系我们</h5>-->
+										<!--<p>我爱模板网</p>-->
+										<!--<div class="icon2">-->
+											<!--<ul>-->
+												<!--<li><i class="indicate"></i></li>-->
+													<!--<li><p class="label1">合肥市xx路xx号xx大厦</p></li>-->
+													<!--</ul>-->
+														<!--<ul>-->
+														<!--<li><i class="phone"></i></li>-->
+															<!--<li><p class="label1">+86-0551-88888888</p></li>-->
+																<!--</ul>-->
+																<!--<ul>-->
+																<!--<li><i class="message"></i></li>-->
+																	<!--<li><a href="mailto:admin@admin.com">admin@admin.com</a></li>-->
+																	<!--</ul>-->
+															<!--</div>-->
+								<!--</div>-->
+								<!--<div class="col-md-3 contact-grid">-->
+									<!--<h5>典型案例分享</h5>-->
+									<!--<div class="cont">-->
+										<!--<div class="contact-leftgrid">-->
+										<!--<div class="img-grid1">-->
+										<!--<img src="images/pic7.jpg">-->
+										<!--</div>-->
+											<!--<div class="img-grid2">-->
+										<!--<img src="images/pic8.jpg">-->
+										<!--</div>-->
+										<!--<div class="clearfix"></div>-->
+										<!--</div>-->
+										<!---->
+										<!--<div class="contact-rightgrid">-->
+										<!--<div class="img-grid3">-->
+										<!--<img src="images/pic9.jpg">-->
+										<!--</div>-->
+											<!--<div class="img-grid4">-->
+										<!--<img src="images/pic10.jpg">-->
+										<!--</div>-->
+										<!--<div class="clearfix"></div>-->
+										<!--</div>-->
+										<!--</div>-->
+										<!--</div>-->
+								<!--<div class="col-md-3 contact-grid">-->
+									<!--<h5>网页模板</h5>-->
+										<!---->
+											<!---->
+											<!--<img src="images/ewm.jpg">-->
+                                            <!--<p>扫描二维码，有惊喜哦！</p>-->
 
-											</div>
-									</div>
-									<div class="clearfix"></div>
-							</div>
-						</div>
-				</div>
-				<div class="footer-section">
-					<div class="container">
-						<div class="footer-left">
-							<p>我爱模板网 版权所有 皖ICP备13019395号 Copyright © 2013 5imoban.net All Rights Reserved.</p>
-						</div>
-							<div class="bottom-menu">
-								<ul>
-									<li><a href="index.html"><span data-hover="首页">首页</span></a></li>
-									<li><a href="portfolio.html"><span data-hover="解决方案">解决方案</span></a></li>
-									<li><a href="portfolio1.html"><span data-hover="解决方案2">解决方案2</span></a></li>
-									<li><a href="blog.html"><span data-hover="文章列表">文章列表</span></a></li> 
-									<li><a href="features.html"><span data-hover="关于我们">关于我们</span></a></li>
-									<li><a href="contact.html"><span data-hover="联系我们">联系我们</span></a></li>
-								</ul>
-							</div>
-							<div class="clearfix"></div>
-							<script type="text/javascript">
-						$(document).ready(function() {
-							/*
-							var defaults = {
-					  			containerID: 'toTop', // fading element id
-								containerHoverID: 'toTopHover', // fading element hover id
-								scrollSpeed: 1200,
-								easingType: 'linear' 
-					 		};
-							*/
-							$().UItoTop({ easingType: 'easeOutQuart' });
-						});
-					</script>
-				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-				</div>				
-				</div>
+											<!--</div>-->
+									<!--</div>-->
+									<!--<div class="clearfix"></div>-->
+							<!--</div>-->
+						<!--</div>-->
+				<!--</div>-->
+				<!--<div class="footer-section">-->
+					<!--<div class="container">-->
+						<!--<div class="footer-left">-->
+							<!--<p>我爱模板网 版权所有 皖ICP备13019395号 Copyright © 2013 5imoban.net All Rights Reserved.</p>-->
+						<!--</div>-->
+							<!--<div class="bottom-menu">-->
+								<!--<ul>-->
+									<!--<li><a href="index.html"><span data-hover="首页">首页</span></a></li>-->
+									<!--<li><a href="portfolio.html"><span data-hover="解决方案">解决方案</span></a></li>-->
+									<!--<li><a href="portfolio1.html"><span data-hover="解决方案2">解决方案2</span></a></li>-->
+									<!--<li><a href="blog.html"><span data-hover="文章列表">文章列表</span></a></li> -->
+									<!--<li><a href="features.html"><span data-hover="关于我们">关于我们</span></a></li>-->
+									<!--<li><a href="contact.html"><span data-hover="联系我们">联系我们</span></a></li>-->
+								<!--</ul>-->
+							<!--</div>-->
+							<!--<div class="clearfix"></div>-->
+							<!--<script type="text/javascript">-->
+						<!--$(document).ready(function() {-->
+							<!--/*-->
+							<!--var defaults = {-->
+					  			<!--containerID: 'toTop', // fading element id-->
+								<!--containerHoverID: 'toTopHover', // fading element hover id-->
+								<!--scrollSpeed: 1200,-->
+								<!--easingType: 'linear' -->
+					 		<!--};-->
+							<!--*/-->
+							<!--$().UItoTop({ easingType: 'easeOutQuart' });-->
+						<!--});-->
+					<!--</script>-->
+				<!--<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>-->
+				<!--</div>				-->
+				<!--</div>-->
 </body>
 </html>
